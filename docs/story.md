@@ -40,6 +40,14 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 2. 在 COR3 自带的 Browser 打开 `CiTo16 Drone Files` 书签，对照截图的仓储线索。实测 `KRVA_BB.eb52x` 的下载按钮可用，其余三项灰显。先在游戏桌面核对是否已经有 `KRVA_BB.png`。
 3. 回 Quests 核对任务进度。已确认截图和仓储入口可用，本次查看时 June 显示 70%，后续步骤待验证。
 
+## Black Ledger
+
+1. 连上 `RM7-S4L4`，用有效的游戏内 SAI 访问打开 Files。下载并打开 `cufgu ab ginhu Koute.png`。
+2. 到 `法典 > 第3条：路 > 黑账` 展开文件夹，打开「个人日志——帕林普塞斯特密码」。回 Messenger 选择新出现的 `Unknown`，走完对话。实测这一段将黑账从 10% 推进到 40%。
+3. 对话要求从尤索尔市场雇用符合条件的承包人，前往库奥特站取回装有记录仪的货箱。
+
+激活南区中转后，已实测从 `RM7-E1SCP` 经 `RM7-S4L3`、`URM7-S5L2` 连到 `URM7-M`。这次 `URM7-M` 显示 25 点防御，SAI 显示暂无有效访问。尤索尔市场的实际进入方式、雇用和交付仍待验证。
+
 ## 305 Herald's Trail
 
 本攻略尚未实测解锁及完成。以玩家当前 Quests 面板为准，通关后记录任务完成状态、游戏内奖励和后续入口。Fragmentary Order 的账号折扣在对应官网结算页另行核对。
