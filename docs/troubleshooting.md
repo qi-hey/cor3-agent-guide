@@ -9,6 +9,7 @@
 ## Map search and loading
 
 - 在 Network Map 展开搜索，填完整的游戏内地址后按 Enter。停在输入状态只会过滤已发现的节点。
+- 已发现的节点可以按名称搜索定位。地图节点挡住搜索图标中间时，试点图标上缘的露出部分。
 - 地图显示连接成功后可继续寻找下一个中转点。查看某个节点的文件时，另行检查 SAI 访问状态。
 - Act 3 节点用地图查找。游戏内 Terminal 的 `connect` 在该场景会显示 `Invalid command`。
 - Files 和 Logs 切换后可能先显示空列表，等待文件数据加载。NPC 消息曾在约 5–6 秒后才出现，先等回复再重复操作。
@@ -20,3 +21,5 @@
 ## Account discount
 
 官网 Fragmentary Order 预购的 Details 页提示使用 COR3 绑定邮箱，以便下一步显示账号福利。已验到 Details 这一步，实际折扣和 305 通关奖励仍待核实。让账号持有人确认官网显示的优惠金额，再决定是否预购。
+
+游戏内 `Information note > Ranks` 列有 Early Deployment 优先级和等级要求。实测面板显示 Pathfinder 可在 Renown 13 时自动获得，也可通过剧情推进获得。

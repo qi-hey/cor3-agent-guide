@@ -2,7 +2,7 @@
   "schema_version": 1,
   "game": "COR3",
   "mode": "Deployment",
-  "updated_on": "2026-11-24",
+  "updated_on": "2026-11-25",
   "entrypoint": "AGENTS.md",
   "entries": [
     {"id": "onboarding", "status": "verified", "path": "docs/story.md", "section": "Onboarding"},
