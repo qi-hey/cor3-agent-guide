@@ -38,7 +38,7 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 1. 从桌面的 `Chris_Tong_Intel` 打开 `Forum_Screenshot.png`，核对游戏的法典更新通知。
 2. 在 COR3 自带的 Browser 打开 `CiTo16 Drone Files` 书签，对照截图的仓储线索。实测 `KRVA_BB.eb52x` 的下载按钮可用，其余三项灰显。先在游戏桌面核对是否已经有 `KRVA_BB.png`。
-3. 回 Quests 核对任务进度。已确认截图和仓储入口可用，本次查看时 June 显示 70%，后续步骤待验证。
+3. 在游戏桌面双击 `KRVA_BB.png`。实测弹出法典更新通知，`法典 > 第3条：路 > 3.1：回到原点` 可看到「KRVA_BB 项目文件」。图片的「信息」面板可核对来源 `RM7-E1L2CT`。回 Quests 查看，June 仍为 70%，后续触发条件待验证。
 
 ## Black Ledger
 
@@ -47,6 +47,8 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 3. 对话要求从尤索尔市场雇用符合条件的承包人，前往库奥特站取回装有记录仪的货箱。
 
 激活南区中转后，已实测从 `RM7-E1SCP` 经 `RM7-S4L3`、`URM7-S5L2` 连到 `URM7-M`。这次 `URM7-M` 显示 25 点防御，SAI 显示暂无有效访问。尤索尔市场的实际进入方式、雇用和交付仍待验证。
+
+同一游戏地图还可连接 `URM7-H`，并发现 `URM7-W4L2`、`UPRM7-S3L2` 和 `URRM7`。`URM7-H` 的「登录」打开 SAI，实测显示 24 点防御且暂无有效访问。
 
 ## 305 Herald's Trail
 
