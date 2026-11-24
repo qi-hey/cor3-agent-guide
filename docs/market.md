@@ -1,0 +1,31 @@
+# 委托、装备与中转
+
+## Market Job
+
+1. 从 Network Map 选 Home Server，进入 `Market > Job`（市场 > 委托）。
+2. 接取前核对目标、剩余时间、押金、失败扣除和工具强度。优先做当前装备可以完成且能在刷新前交付的委托。
+3. 有 `Task Access` 时优先使用授予的任务权限。文件解密类委托从游戏桌面的 Downloads 打开目标，核对文件标题后开始。
+4. 做完回 `Market > Job` 领取。用领取状态核对任务完成，把 CR 奖励、退回的押金和 Market Rep 分开看。
+
+| 界面任务名 | 已验证动作 | 结算观察 |
+| --- | --- | --- |
+| File Decryption | 打开 Downloads 中与委托一致的加密文件，完成三轮图案 | 多次显示 838 CR、退回 126 CR 押金、151 Market Rep |
+| Data Download | 用授予的 Task Access 下载委托目标文件 | 一次显示 856 CR、退回 129 CR 押金、155 Market Rep |
+| File Elimination / IP Cleanup | 按委托界面确认目标和任务权限，完成后回市场领取 | 各有一次显示 721 CR、退回 109 CR 押金 |
+| Log Download / IP Injection | 对照委托目标和当前可用权限。遇到需要通过的关卡时，先核对工具强度 | 核对委托奖励和最终领取状态 |
+
+以上金额只对应观察到的委托档位。领取按钮和到账由当前合约决定。
+
+## Loadout and power
+
+- 用同一窗口的装备强度对照文件加密等级或 SAI 防御。`RM7-S4L3` 曾显示 13 点防御且无 Task Access。使用 12 点的 Porter-lite 时，地图能连通，委托仍无法完成。
+- UNO 6.651 的一次成功配置显示 12.7 GHz、总负载 2.0 / 2.0 kW。相同 GPU 和电源搭配下，单装 `Porter-lite r4` 显示 12 点强度，单装 `Cypher+ v1.4` 显示 15 点解密能力。根据任务切换。
+- 在 Loadout 先关机，卸下旧工具，再装所需工具并开机。返回后重新打开目标窗，按新显示的强度判断能否做任务。
+
+## Transit access
+
+游戏地图提示无路由时，先查对应中转权限。一次购买 `RM7-E1SCP Transit` 的 4 小时 access 花费 575 CR，生效后连接 `RM7-E1SCP`，实际到达 `RM7-S4L4`、`RM7-S4L1` 和 `RM7-S4WCP` 所在区域。在游戏地图上，`855.529.2.12` 可用于继续找出 `RM7-S4L2` 和 `RM7-S4L3`。需要做的内容较集中时再买限时权限，先核对报价和有效时间。
+
+## Daily Ops
+
+`System Log Integrity` 和 `Signal Decode` 都有实测领奖，分别显示 300 CR。音频信号用当前界面的长短信号逐位识别。完成后回 Daily Ops 对照是否领完，并读取下一次刷新时间。

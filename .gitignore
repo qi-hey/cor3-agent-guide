@@ -1,0 +1,9 @@
+cor3-progress.json
+*.local.json
+*.log
+*.png
+*.zip
+.env
+.env.*
+.t3/
+node_modules/

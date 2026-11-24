@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "game": "COR3",
+  "mode": "Deployment",
+  "updated_on": "2026-11-24",
+  "entrypoint": "AGENTS.md",
+  "entries": [
+    {"id": "onboarding", "status": "verified", "path": "docs/story.md", "section": "Onboarding"},
+    {"id": "byte-tx-71", "status": "verified", "path": "docs/story.md", "section": "Byte and TX-71"},
+    {"id": "301", "status": "partial", "path": "docs/story.md", "section": "301 Broken server"},
+    {"id": "unknown-user", "status": "partial", "path": "docs/story.md", "section": "A deal with the unknown"},
+    {"id": "private-matters", "status": "partial", "path": "docs/story.md", "section": "Private Matters"},
+    {"id": "305", "status": "unverified", "path": "docs/story.md", "section": "305 Herald's Trail"},
+    {"id": "market-jobs", "status": "verified", "path": "docs/market.md", "section": "Market Job"},
+    {"id": "loadout-power", "status": "verified", "path": "docs/market.md", "section": "Loadout and power"},
+    {"id": "transit", "status": "verified", "path": "docs/market.md", "section": "Transit access"},
+    {"id": "daily-ops", "status": "verified", "path": "docs/market.md", "section": "Daily Ops"},
+    {"id": "ice-wall-pattern", "status": "verified", "path": "docs/puzzles.md", "section": "ICE WALL pattern"},
+    {"id": "puzzle-cooldown", "status": "verified", "path": "docs/puzzles.md", "section": "Timer and cooldown"},
+    {"id": "disconnect", "status": "verified", "path": "docs/troubleshooting.md", "section": "Disconnect and retry"},
+    {"id": "map-search", "status": "verified", "path": "docs/troubleshooting.md", "section": "Map search and loading"},
+    {"id": "claim-refresh", "status": "verified", "path": "docs/troubleshooting.md", "section": "Claim and refresh"},
+    {"id": "account-discount", "status": "unverified", "path": "docs/troubleshooting.md", "section": "Account discount"}
+  ]
+}
