@@ -10,6 +10,7 @@
     {"id": "301", "status": "partial", "path": "docs/story.md", "section": "301 Broken server"},
     {"id": "unknown-user", "status": "partial", "path": "docs/story.md", "section": "A deal with the unknown"},
     {"id": "private-matters", "status": "partial", "path": "docs/story.md", "section": "Private Matters"},
+    {"id": "june", "status": "partial", "path": "docs/story.md", "section": "June"},
     {"id": "305", "status": "unverified", "path": "docs/story.md", "section": "305 Herald's Trail"},
     {"id": "market-jobs", "status": "verified", "path": "docs/market.md", "section": "Market Job"},
     {"id": "loadout-power", "status": "verified", "path": "docs/market.md", "section": "Loadout and power"},

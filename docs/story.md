@@ -32,6 +32,14 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 在 `RM7-N2ECP` 的游戏内 ICE WALL 完成图案挑战后，打开 SAI，阅读与 Ozren Navratil 有关的 Valeriani 文件。按文件里的游戏内联系人加入 Messenger，完成开场对话会推进到 20%。后续线索指向失踪的 CEDRT 管理员 Garrett Sloan，结局待验证。
 
+Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON Garrett Sloan` 返回无匹配。Ozren 对话中指向的下一处调查范围是游戏内 CEDRT 资料。
+
+## June
+
+1. 从桌面的 `Chris_Tong_Intel` 打开 `Forum_Screenshot.png`，核对游戏的法典更新通知。
+2. 在 COR3 自带的 Browser 打开 `CiTo16 Drone Files` 书签，对照截图的仓储线索。实测 `KRVA_BB.eb52x` 的下载按钮可用，其余三项灰显。先在游戏桌面核对是否已经有 `KRVA_BB.png`。
+3. 回 Quests 核对任务进度。已确认截图和仓储入口可用，本次查看时 June 显示 70%，后续步骤待验证。
+
 ## 305 Herald's Trail
 
 本攻略尚未实测解锁及完成。以玩家当前 Quests 面板为准，通关后记录任务完成状态、游戏内奖励和后续入口。Fragmentary Order 的账号折扣在对应官网结算页另行核对。

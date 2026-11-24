@@ -28,4 +28,4 @@
 
 ## Daily Ops
 
-`System Log Integrity` 和 `Signal Decode` 都有实测领奖，分别显示 300 CR。音频信号用当前界面的长短信号逐位识别。完成后回 Daily Ops 对照是否领完，并读取下一次刷新时间。
+从桌面底栏打开 `Game Center > 日常行动`。`System Log Integrity` 和 `Signal Decode` 都有实测领奖，分别显示 300 CR。音频信号用当前界面的长短信号逐位识别。完成后核对「所有任务已完成」和当日奖励，按该面板的倒计时等下一批。已完成的行动可能仍显示「重玩」。
