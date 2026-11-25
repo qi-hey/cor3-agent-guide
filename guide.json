@@ -13,6 +13,7 @@
     {"id": "june", "status": "partial", "path": "docs/story.md", "section": "June"},
     {"id": "black-ledger", "status": "partial", "path": "docs/story.md", "section": "Black Ledger"},
     {"id": "d4rk-route", "status": "partial", "path": "docs/story.md", "section": "D4RK route"},
+    {"id": "soyuz-route", "status": "partial", "path": "docs/story.md", "section": "SOYUZ route"},
     {"id": "305", "status": "unverified", "path": "docs/story.md", "section": "305 Herald's Trail"},
     {"id": "market-jobs", "status": "verified", "path": "docs/market.md", "section": "Market Job"},
     {"id": "loadout-power", "status": "verified", "path": "docs/market.md", "section": "Loadout and power"},

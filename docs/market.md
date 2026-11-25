@@ -12,12 +12,16 @@
 | File Decryption | 打开 Downloads 中与委托一致的加密文件，完成三轮图案 | 多次显示 838 CR、退回 126 CR 押金、151 Market Rep |
 | Data Download | 用授予的 Task Access 下载委托目标文件 | 一次显示 856 CR、退回 129 CR 押金、155 Market Rep |
 | Log Deletion | 在游戏内 Logs 核对已接受委托的目标后完成操作 | 一次显示 721 CR、退回 109 CR 押金、130 Market Rep |
-| File Elimination / IP Cleanup | 按委托界面确认目标和任务权限，完成后回市场领取 | 各有一次显示 721 CR、退回 109 CR 押金 |
-| Log Download / IP Injection | 对照委托目标和当前可用权限。遇到需要通过的关卡时，先核对工具强度 | 核对委托奖励和最终领取状态 |
+| File Elimination | 在游戏内 SAI 的 `Files` 删除委托指定文件 | 一次显示 721 CR、退回 109 CR 押金 |
+| IP Cleanup / IP Injection | 在游戏内 SAI 的「中转访问」按委托逐条移除或加入指定项目 | Access Acquisition 档实测各为 1,221 CR |
+| Data Upload | 从目标节点的 `Files` 点上传箭头，在游戏内选择器中打开 `Downloads`，选中委托文件并点「上传」 | 实测文件出现在节点列表，领取 1,113 CR、退回 167 CR 押金 |
+| Log Download | 对照委托目标和当前可用权限。遇到需要通过的关卡时，先核对工具强度 | 核对委托奖励和最终领取状态 |
 
 以上金额只对应观察到的委托档位。领取按钮和到账由当前合约决定。
 
 相同奖励的解密委托也可能有不同条款。实测均奖励 838 CR 的委托，有的收 126 CR 押金，有的规定失败扣 46 Market Rep。签署时核对弹窗。
+
+`Access Acquisition` 委托也能使用游戏里已有的「通过工具授予」访问。实测在两个 CEDRT 节点选择该访问卡并登录后，可查阅委托需要的「中转访问」和 `Files`。
 
 ## Loadout and power
 
