@@ -12,11 +12,12 @@
 | 界面任务名 | 已验证动作 | 结算观察 |
 | --- | --- | --- |
 | File Decryption | 打开 Downloads 中与委托一致的加密文件，完成三轮图案 | 多次显示 838 CR、退回 126 CR 押金、151 Market Rep |
+| Decrypt & Extract | 从委托节点下载同名文件，核对游戏 Downloads 中的实际扩展名，解密后确认目标文件出现 | `RM7-E1SCP` 实测领取 2,106 CR、380 Market Rep |
 | Data Download | 用授予的 Task Access 下载委托目标文件 | 一次显示 856 CR、退回 129 CR 押金、155 Market Rep |
 | Log Deletion | 在游戏内 Logs 核对已接受委托的目标后完成操作 | 一次显示 721 CR、退回 109 CR 押金、130 Market Rep |
 | File Elimination | 在游戏内 SAI 的 `Files` 删除委托指定文件 | 一次显示 721 CR、退回 109 CR 押金 |
 | IP Cleanup / IP Injection | 在游戏内 SAI 的「中转访问」按委托逐条移除或加入指定项目 | Access Acquisition 档实测各为 1,221 CR |
-| Data Upload | 从目标节点的 `Files` 点上传箭头，在游戏内选择器中打开 `Downloads`，选中委托文件并点「上传」 | 实测文件出现在节点列表，领取 1,113 CR、退回 167 CR 押金 |
+| Data Upload | 从目标节点的 `Files` 点上传箭头，在游戏内选择器中打开 `Downloads`，选中委托文件并点「上传」 | `Access Grant` 档实测领取 639 CR、退回 96 CR 押金。另一档领取 1,113 CR、退回 167 CR 押金 |
 | Log Download | 对照委托目标和当前可用权限。遇到需要通过的关卡时，先核对工具强度 | 核对委托奖励和最终领取状态 |
 
 以上金额只对应观察到的委托档位。领取按钮和到账由当前合约决定。
@@ -27,11 +28,19 @@
 
 `Access Acquisition` 委托也能使用游戏里已有的「通过工具授予」访问。实测在两个 CEDRT 节点选择该访问卡并登录后，可查阅委托需要的「中转访问」和 `Files`。
 
+## Decrypt & Extract
+
+1. 在 `RM7-E1SCP` 核对访问。实测 `Porter-lite r4` 在工具和节点防御均为 12 时通过三轮图案，获得「通过工具授予」访问。
+2. 打开 SAI 的 `Files`，按委托目标的文件主名查找。实测节点列表显示 `.dat`，下载到游戏 `Downloads` 后显示 `.ab52p`，委托要求交付同一主名的 `.txt`。
+3. 下载后可切换到 `Cypher+ v1.4`。一次实测用 20 点解密强度解开 11 点加密文件，游戏 `Downloads` 随即出现委托要求的 `.txt`。
+4. 在市场核对卡片变为「可完成」再领取。一次弹窗只有「关闭」，同一游戏标签页普通刷新后出现「完成」，最终到账 2,106 CR。
+
 ## Loadout and power
 
 - 用同一窗口的装备强度对照文件加密等级或 SAI 防御。`RM7-S4L3` 曾显示 13 点防御且无 Task Access。使用 12 点的 Porter-lite 时，地图能连通，委托仍无法完成。
 - `RM7-S4L1` 的 SAI 显示 12 点防御时，实测 12 点的 `Porter-lite r4` 可开启并通过三轮图案挑战。登录后按委托处理「中转访问」，回市场确认 IP Injection 结算。一次奖励为 1,274 CR。
 - 同样的 12 点配装也在 `RM7-S4L2` 通过了图案挑战。先开通南区中转，再确认「通过工具授予」访问。该次 IP Injection 要填写两项，逐项保存并核对列表后回市场结算了 1,274 CR。
+- `RM7-N2L3` 同样实测为 12 点防御。通过 `Porter-lite r4` 的三轮图案挑战后，选中「通过工具授予」访问卡，进入「中转访问」。北区 IP Injection 的一次委托有三项，逐条保存并核对列表后领取了 1,274 CR。
 - `RM7-N1L1` 的一次 Access Acquisition 委托也遇到 13 点防御。连接 `RM7-N2L2` 后，在游戏地图输入 `855.529.4.1` 并按 Enter 即可找到它。接单前在 SAI 核对有效访问和兼容工具。
 - UNO 6.651 的一次成功配置显示 12.7 GHz、总负载 2.0 / 2.0 kW。相同 GPU 和电源搭配下，单装 `Porter-lite r4` 显示 12 点强度，单装 `Cypher+ v1.4` 显示 15 点解密能力。根据任务切换。
 - 使用 `UNO 6.651`、`OmniPix 23.2` 和 6 TB `Emerald H3S12` 时，单装 `Cypher+ v1.4` 的实测解密强度为 20。装备页与文件分析显示一致。更换内存后可以重新核对旧模块的实际强度。

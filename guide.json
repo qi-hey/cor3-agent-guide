@@ -2,7 +2,7 @@
   "schema_version": 1,
   "game": "COR3",
   "mode": "Deployment",
-  "updated_on": "2026-11-25",
+  "updated_on": "2026-11-26",
   "entrypoint": "AGENTS.md",
   "entries": [
     {"id": "onboarding", "status": "verified", "path": "docs/story.md", "section": "Onboarding"},
@@ -16,6 +16,7 @@
     {"id": "soyuz-route", "status": "partial", "path": "docs/story.md", "section": "SOYUZ route"},
     {"id": "305", "status": "unverified", "path": "docs/story.md", "section": "305 Herald's Trail"},
     {"id": "market-jobs", "status": "verified", "path": "docs/market.md", "section": "Market Job"},
+    {"id": "decrypt-and-extract", "status": "verified", "path": "docs/market.md", "section": "Decrypt & Extract"},
     {"id": "loadout-power", "status": "verified", "path": "docs/market.md", "section": "Loadout and power"},
     {"id": "stash-sale-quotes", "status": "verified", "path": "docs/market.md", "section": "Stash sale quotes"},
     {"id": "transit", "status": "verified", "path": "docs/market.md", "section": "Transit access"},
