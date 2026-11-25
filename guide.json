@@ -23,6 +23,7 @@
     {"id": "puzzle-cooldown", "status": "verified", "path": "docs/puzzles.md", "section": "Timer and cooldown"},
     {"id": "disconnect", "status": "verified", "path": "docs/troubleshooting.md", "section": "Disconnect and retry"},
     {"id": "map-search", "status": "verified", "path": "docs/troubleshooting.md", "section": "Map search and loading"},
+    {"id": "market-entry", "status": "verified", "path": "docs/troubleshooting.md", "section": "Market entry"},
     {"id": "claim-refresh", "status": "verified", "path": "docs/troubleshooting.md", "section": "Claim and refresh"},
     {"id": "account-discount", "status": "unverified", "path": "docs/troubleshooting.md", "section": "Account discount"}
   ]
