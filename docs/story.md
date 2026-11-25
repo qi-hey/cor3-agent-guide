@@ -28,6 +28,8 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 任务提示还列出另一个游戏内选项，即获取该节点的 SAI 访问。`RE-nova v3.0` 曾在市场显示兼容 EMERMODE，CRL 2.0 时的一次报价为 15,755 CR。购买前核对兼容性和实际可装配强度，安装后再检查能否满足界面的 15 点防御要求。两条路线的最终交付均待验证。
 
+`RE-nova v3.0` 的商品详情显示内存容量基础消耗 2.2 TB、最低 4.3 TB、最高 5.5 TB。一次检查中，现装的 `Emerald H2S9` 只有 4 TB，市场中的 6 TB `Emerald H3S12` 报价 11,385 CR。也要核对 CPU、GPU、电源和其他资源。换装后的实际强度仍待验证。
+
 ## Private Matters
 
 在 `RM7-N2ECP` 的游戏内 ICE WALL 完成图案挑战后，打开 SAI，阅读与 Ozren Navratil 有关的 Valeriani 文件。按文件里的游戏内联系人加入 Messenger，完成开场对话会推进到 20%。后续线索指向失踪的 CEDRT 管理员 Garrett Sloan，结局待验证。
@@ -49,6 +51,10 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 激活南区中转后，已实测从 `RM7-E1SCP` 经 `RM7-S4L3`、`URM7-S5L2` 连到 `URM7-M`。这次 `URM7-M` 显示 25 点防御，SAI 显示暂无有效访问。尤索尔市场的实际进入方式、雇用和交付仍待验证。
 
 同一游戏地图还可连接 `URM7-H`，并发现 `URM7-W4L2`、`UPRM7-S3L2` 和 `URRM7`。`URM7-H` 的「登录」打开 SAI，实测显示 24 点防御且暂无有效访问。
+
+## D4RK route
+
+南区中转生效后，实测依次连接 `RM7-E1SCP`、`RM7-S4L3`、`URM7-S5L2`、`URM7-H`、`URM7-W4L2`、`D4RK RM7CE` 和 `D4RK RM7EG`，地图出现 `B43274N`。该节点可连通，服务器类型为 `D4RK/B1N`，SAI 显示 8 点防御，暂无有效访问。涉及的市场入口仍待验证。
 
 ## 305 Herald's Trail
 
