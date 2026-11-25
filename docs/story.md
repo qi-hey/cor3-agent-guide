@@ -44,6 +44,8 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 2. 在 COR3 自带的 Browser 打开 `CiTo16 Drone Files` 书签，对照截图的仓储线索。实测 `KRVA_BB.eb52x` 的下载按钮可用，其余三项灰显。先在游戏桌面核对是否已经有 `KRVA_BB.png`。
 3. 在游戏桌面双击 `KRVA_BB.png`。实测弹出法典更新通知，`法典 > 第3条：路 > 3.1：回到原点` 可看到「KRVA_BB 项目文件」。图片的「信息」面板可核对来源 `RM7-E1L2CT`。回 Quests 查看，June 仍为 70%，后续触发条件待验证。
 
+`RM7-E1L2CT` 的 SAI 实测为 7 点防御。选择已有的「通过工具授予」访问后，在 `Files` 可以找回 Christopher Tong 的邮件、板卡资料和 Mantis 图片。复查这些线索后，June 仍显示 70%。
+
 ## Black Ledger
 
 1. 连上 `RM7-S4L4`，用有效的游戏内 SAI 访问打开 Files。下载并打开 `cufgu ab ginhu Koute.png`。
