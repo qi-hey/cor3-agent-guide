@@ -28,6 +28,8 @@ Home Server 显示在线却没有「市场」时，在当前游戏地图选一�
 
 ## Account discount
 
-官网 Fragmentary Order 预购的 Details 页提示使用 COR3 绑定邮箱，以便下一步显示账号福利。已验到 Details 这一步，实际折扣和 305 通关奖励仍待核实。让账号持有人确认官网显示的优惠金额，再决定是否预购。
+Fragmentary Order 在 2026 年 11 月 17 日公告，Prime Batch 结算会同步 COR3 等级，登录关联账号后自动应用符合条件的等级折扣。[Fragmentary Order 折扣公告](https://x.com/fragorder/status/2122728823322214613)
+
+官网预购的 Details 页提示使用 COR3 绑定邮箱，以便下一步显示账号福利。已实测到 Details 页。结算价格由账号持有人核对。
 
 游戏内 `Information note > Ranks` 列有 Early Deployment 优先级和等级要求。实测面板显示 Pathfinder 可在 Renown 13 时自动获得，也可通过剧情推进获得。

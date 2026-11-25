@@ -66,4 +66,6 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 ## 305 Herald's Trail
 
-本攻略尚未实测解锁及完成。以玩家当前 Quests 面板为准，通关后记录任务完成状态、游戏内奖励和后续入口。Fragmentary Order 的账号折扣在对应官网结算页另行核对。
+CORIE 3.104.9 更新公告将完成 `304 Line to the Ground` 列为解锁条件。完成 304 后重连 COR3，在 Quests 找 `305 Herald's Trail`。公告列出 304 和 305 的 CR 和名望奖励。[CORE Corp. 更新公告](https://x.com/cor3corp/status/2117553114806931812)
+
+本攻略尚未实测 305 解锁和完成。推进后核对 Quests 和实际到账。Fragmentary Order 的账号折扣在官网结算页核对。
