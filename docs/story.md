@@ -24,9 +24,9 @@
 
 ## A deal with the unknown
 
-Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至少一年订阅。可以先按下文查看 Home Market 的 `Nutcracker`。
+Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至少一年订阅。下文记录了 `Nutcracker` 的购买和交付。
 
-任务提示还列出另一个游戏内选项，即获取该节点的 SAI 访问。`RE-nova v3.0` 曾在市场显示兼容 EMERMODE，CRL 2.0 时的一次报价为 15,755 CR。购买前核对兼容性和实际可装配强度，安装后再检查能否满足界面的 15 点防御要求。两条路线的最终交付均待验证。
+任务提示还列出另一个游戏内选项，即通过配装取得该节点的 SAI 访问。`RE-nova v3.0` 曾在市场显示兼容 EMERMODE，CRL 2.0 时的一次报价为 15,755 CR。购买前核对兼容性和实际可装配强度，安装后再检查能否满足界面的 15 点防御要求。配装路线仍待验证。
 
 `RE-nova v3.0` 的商品详情显示内存容量基础消耗 2.2 TB、最低 4.3 TB、最高 5.5 TB。一次检查中，现装的 `Emerald H2S9` 只有 4 TB，市场中的 6 TB `Emerald H3S12` 报价 11,385 CR。也要核对 CPU、GPU、电源和其他资源。
 
@@ -36,9 +36,13 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 ## Nutcracker market listing
 
-实测 `Home Market > File` 上架 `Nutcracker`。当时售价 28,750 CR，要求 CRL 1.0，库存 1 件。打开游戏内市场时重新核对价格和库存。
+实测从 `Home Market > File` 以 28,750 CR 买到 `Nutcracker`，要求 CRL 1.0，当时库存 1 件。购买确认窗标明一年期安全订阅。确认后核对余额和商品状态。每次购买前重新检查当前报价与库存。
 
-社区攻略指出，购买后可在 Messenger 把 `Nutcracker` 交给 `Unknown User`，换取 `EM[UNDEFINED]` 的 `Task Access`。拿到访问后，查找 `attack_logs.log` 和 `ad_note.png`，回 `CEDRT Work Chat` 找 Chris，再联系 Aurana。购买、交付和后续对话待实测。[社区 Act 3 攻略](https://mrsouer.com/guides/cor3/cor3-act-3)
+## Nutcracker delivery
+
+在 `Messenger > Unknown User` 选择附带 `Nutcracker` 的回复。实测对方随后确认已授予该服务器的 SAI 访问。回游戏地图连接 `EM[UNDEFINED]`，在 SAI 的「有效访问」中核对 `Task Access`。
+
+社区攻略指出，取得访问后可查找 `attack_logs.log` 和 `ad_note.png`，回 `CEDRT Work Chat` 找 Chris，再联系 Aurana。节点内访问和后续对话待实测。[社区 Act 3 攻略](https://mrsouer.com/guides/cor3/cor3-act-3)
 
 ## Private Matters
 
