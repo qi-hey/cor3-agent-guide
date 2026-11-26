@@ -18,7 +18,7 @@
 | File Elimination | 在游戏内 SAI 的 `Files` 删除委托指定文件 | 一次显示 721 CR、退回 109 CR 押金 |
 | IP Cleanup / IP Injection | 在游戏内 SAI 的「中转访问」按委托逐条移除或加入指定项目 | Access Acquisition 档实测各为 1,221 CR |
 | Data Upload | 从目标节点的 `Files` 点上传箭头，在游戏内选择器中打开 `Downloads`，选中委托文件并点「上传」 | `Access Grant` 档实测领取 639 CR、退回 96 CR 押金。另一档领取 1,113 CR、退回 167 CR 押金 |
-| Log Download | 对照委托目标和当前可用权限。遇到需要通过的关卡时，先核对工具强度 | 核对委托奖励和最终领取状态 |
+| Log Download | 在游戏内 `Logs` 下载委托指定日志。实测在 `RM7-S4L1` 可复用已获得的工具访问 | 一次 Access Acquisition 委托结算 1,445 CR |
 
 以上金额只对应观察到的委托档位。领取按钮和到账由当前合约决定。
 
@@ -29,6 +29,8 @@
 `Access Acquisition` 委托也能使用游戏里已有的「通过工具授予」访问。实测在两个 CEDRT 节点选择该访问卡并登录后，可查阅委托需要的「中转访问」和 `Files`。
 
 在 `RM7-E1L3` 的一次 IP Injection 委托中，实测也可复用已生效的 `Task Access`。签署前确认能进入「中转访问」且添加按钮可用。逐条核对委托目标，保存后回市场结算。这次奖励为 1,221 CR。
+
+一次两项的 `RM7-E1L5` 委托弹出添加成功，委托仍显示「进行中」。回「中转访问」核对每一项，重新录入列表缺少的一项。两项都出现后，委托变为「可完成」并结算 1,221 CR，另退 184 CR 押金。
 
 ## Decrypt & Extract
 

@@ -53,9 +53,17 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 301 完成后，从 `Notifications > Hints` 查看 `B43273N` 的 `chat_fragments.txt` 和 `5CRYPt0L 0J` 线索。展开 `Codex > Entry 3: The Way > 3.3: Ghost Protocol`，打开 `Personal Log` 核对 `.JJQV` 文件需要专用解密套件。
 
-实测先连接 `B43274N`，再在游戏地图搜索 `854.266.7.3`，可发现 `B43273N`。节点显示在线、类型 `D4RK/B1N`、防御 12，连接报无可用路径。`B43274N` 的 SAI 显示暂无有效访问。剧情路径的实际进入方式待验证。[社区地图存档](https://github.com/3ncy/cor3/blob/main/Network%20map/README.md)
+实测先连接 `B43274N`，再在游戏地图搜索 `854.266.7.3`，可发现 `B43273N`。节点显示在线、类型 `D4RK/B1N`、防御 12。复查时 `D4RK RM7EG` 和 `B43274N` 都可连通，连接 `B43273N` 仍报无可用路径。`B43274N` 的 SAI 显示暂无有效访问。[社区地图存档](https://github.com/3ncy/cor3/blob/main/Network%20map/README.md)
 
-社区归档的 `chat_fragments.txt` 指向 `Koute_Secure_Hub`。本轮 `Home Market > File` 只看到 `Nutcracker`，套件入手和解密仍待实测。[剧情材料存档](https://github.com/3ncy/cor3/blob/main/chat_fragments.txt)
+2026 年 7 月 15 日的更新公告提到 `Ghost Protocol` 有专用路线。实测 `Quests` 显示 301 完成时，`Hints` 已给出 302 的文件线索。专用路线入口仍待验证。[CORE Corp. 更新公告](https://x.com/cor3corp/status/2077380652043731442)
+
+## Ghost Protocol suite
+
+社区归档的 `chat_fragments.txt` 指向游戏节点 `Koute_Secure_Hub`。将节点名直接填入游戏 Browser，实测显示页面未找到。[剧情材料存档](https://github.com/3ncy/cor3/blob/main/chat_fragments.txt)
+
+社区归档的 Personal Log 记录了下载并打开 `chat_fragments.txt` 后出现的线索，可据此检查 Codex 是否更新，以及 Palimpsest 是否提供后续对话。[个人日志存档](https://github.com/3ncy/cor3/blob/main/Codex/Entry%203%20The%20Way/Personal%20Log.md)
+
+社区软件目录将支持 `.JJQV` 的 `5CRYPt0L 0J` 列在 `BMI-ZEN`，记录报价 108,550 CR、市场等级 3。进入方式、任务获取选项和实时购买条件仍待验证。[社区软件目录](https://github.com/3ncy/cor3/blob/main/Market/README.md#decrypt)
 
 ## Private Matters
 
@@ -86,6 +94,10 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 南区中转生效后，实测依次连接 `RM7-E1SCP`、`RM7-S4L3`、`URM7-S5L2`、`URM7-H`、`URM7-W4L2`、`D4RK RM7CE` 和 `D4RK RM7EG`，地图出现 `B43274N`。该节点可连通，服务器类型为 `D4RK/B1N`，SAI 显示 8 点防御，暂无有效访问。涉及的市场入口仍待验证。
 
 `D4RK RM7MI` 也已连通。地图提供「登录」，SAI 显示 `D4RK T4` 节点有 15 点防御，当前无有效访问。
+
+在 `B43274N` 已连接时，在游戏地图搜索 `854.266.7.1` 并按 Enter，实测发现 `B43271N`。连接 `RM7-E1L2CT` 后可连到 `B43271N`，其 SAI 显示 27 点防御和暂无有效访问。`D4RK 2IV2` 实测也能连通，节点显示 22 点防御，地图未显示市场入口。
+
+`Home Market > Software` 的 `D-Badger v2.2` 一次实测报价为 28,290 CR，要求 CRL 4.0，兼容 `D4RK/B1N`。商品详情的 GPU 算力最低值为 0.72 PFLOPS、显存最低值为 0.83 TB。装机强度和 302 任务用途仍待验证。
 
 `D4RK RM7EG` 曾出现 Decrypt & Extract 委托。接单前打开游戏 SAI，实测防御为 15，且未显示有效访问。先核对能否取得游戏访问，再决定是否接单。
 

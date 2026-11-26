@@ -12,6 +12,7 @@
     {"id": "nutcracker-market", "status": "verified", "path": "docs/story.md", "section": "Nutcracker market listing"},
     {"id": "nutcracker-delivery", "status": "verified", "path": "docs/story.md", "section": "Nutcracker delivery"},
     {"id": "302", "status": "partial", "path": "docs/story.md", "section": "302 Ghost Protocol"},
+    {"id": "ghost-protocol-suite", "status": "unverified", "path": "docs/story.md", "section": "Ghost Protocol suite"},
     {"id": "private-matters", "status": "partial", "path": "docs/story.md", "section": "Private Matters"},
     {"id": "june", "status": "partial", "path": "docs/story.md", "section": "June"},
     {"id": "black-ledger", "status": "partial", "path": "docs/story.md", "section": "Black Ledger"},
