@@ -70,6 +70,8 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 `D4RK RM7MI` 也已连通。地图提供「登录」，SAI 显示 `D4RK T4` 节点有 15 点防御，当前无有效访问。
 
+`D4RK RM7EG` 曾出现 Decrypt & Extract 委托。接单前打开游戏 SAI，实测防御为 15，且未显示有效访问。先核对能否取得游戏访问，再决定是否接单。
+
 ## SOYUZ route
 
 连接 `RM7-N2ECP` 和 `RM7-N2L2` 后，在游戏地图搜索 `855.529.4.17` 并按 Enter。连接找到的 `SRM7-N3L2`，再连接 `SRM7-N3L1`，地图会显示 `SRM7-M` 和 `SRM7-N4L2`。实测两者均能连通，SAI 分别显示 24 和 18 点防御。市场入口仍待验证。
