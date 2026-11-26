@@ -20,7 +20,10 @@
 4. 沿游戏地图依次连接 `RM7-N2ECP`、`RM7-N2L2`、`RM7-N2L3`。每跳先核对地图连通状态，地图连通即可继续下一跳。
 5. 在 `RM7-N2L3` 连通后，把 `855.529.4.22` 完整填入地图搜索框并按 Enter。打开发现的 `EM[undefined]` 的 SAI，等 Messenger 出现 Unknown User，完成首次对话。
 
-已验证到 301 的 70% 检查点。这个节点的 SAI 界面曾显示 EMERMODE 类型和 15 点防御。下一步参见同页的 `A deal with the unknown`。
+6. 按 `Nutcracker delivery` 完成交易、确认剧情访问并收集两份文件。回 `CEDRT Work Chat` 发送附带 `attack_logs.log` 的报告，直到游戏提示联系 Aurana。
+7. 在 Messenger 向 Aurana 汇报，发送她的最后一条可选回复。实测游戏随后将桌面文件更新为 `attack_logs.jjqv`，Quests 中 `Broken server` 和 `A deal with the unknown` 都显示完成。
+
+若点工作群后右侧仍停在 Unknown User，可先切到 Aurana，再点工作群。实测切换成功后，报告选项在群聊底部显示。
 
 ## A deal with the unknown
 
@@ -40,11 +43,19 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 ## Nutcracker delivery
 
-在 `Messenger > Unknown User` 选择附带 `Nutcracker` 的回复。实测对方随后确认已授予该服务器的 SAI 访问。回游戏地图连接 `EM[UNDEFINED]`，在 SAI 的「有效访问」中核对 `Task Access`。
+在 `Messenger > Unknown User` 选择附带 `Nutcracker` 的回复。等对方确认授予访问，再点对话末尾的确认回复。实测发送这条回复后，游戏才弹出获得 `EM[UNDEFINED]` 访问的提示。回游戏地图连接该节点，打开 SAI 并选择「任务访问」。实测可进入文件列表。
 
-收到授予访问的回复后，任务面板在这次实测中显示 50%。当 `RM7-E1L3` 处于维护时，连接 `RM7-N2ECP` 和直接连接剧情节点均报无可用路径。此时可用游戏地图的维护倒计时确定何时重查连接。
+末尾确认回复发送前，任务面板实测显示 50%，目标 SAI 显示暂无有效访问。当 `RM7-E1L3` 处于维护时，连接 `RM7-N2ECP` 和直接连接剧情节点均报无可用路径。可用游戏地图的维护倒计时确定何时重查连接。
 
-社区攻略指出，取得访问后可查找 `attack_logs.log` 和 `ad_note.png`，回 `CEDRT Work Chat` 找 Chris，再联系 Aurana。节点内访问和后续对话待实测。[社区 Act 3 攻略](https://mrsouer.com/guides/cor3/cor3-act-3)
+在该节点的 `Files` 下载 `attack_logs.log` 和 `ad_note.png`，在游戏桌面核对两份文件。实测两份材料齐全后，游戏会提示回 `CEDRT Work Chat` 提交。按 301 步骤继续完成两次汇报。[社区 Act 3 攻略](https://mrsouer.com/guides/cor3/cor3-act-3)
+
+## 302 Ghost Protocol
+
+301 完成后，从 `Notifications > Hints` 查看 `B43273N` 的 `chat_fragments.txt` 和 `5CRYPt0L 0J` 线索。展开 `Codex > Entry 3: The Way > 3.3: Ghost Protocol`，打开 `Personal Log` 核对 `.JJQV` 文件需要专用解密套件。
+
+实测先连接 `B43274N`，再在游戏地图搜索 `854.266.7.3`，可发现 `B43273N`。节点显示在线、类型 `D4RK/B1N`、防御 12，连接报无可用路径。`B43274N` 的 SAI 显示暂无有效访问。剧情路径的实际进入方式待验证。[社区地图存档](https://github.com/3ncy/cor3/blob/main/Network%20map/README.md)
+
+社区归档的 `chat_fragments.txt` 指向 `Koute_Secure_Hub`。本轮 `Home Market > File` 只看到 `Nutcracker`，套件入手和解密仍待实测。[剧情材料存档](https://github.com/3ncy/cor3/blob/main/chat_fragments.txt)
 
 ## Private Matters
 
