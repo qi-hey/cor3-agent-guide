@@ -42,6 +42,8 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 在 `Messenger > Unknown User` 选择附带 `Nutcracker` 的回复。实测对方随后确认已授予该服务器的 SAI 访问。回游戏地图连接 `EM[UNDEFINED]`，在 SAI 的「有效访问」中核对 `Task Access`。
 
+收到授予访问的回复后，任务面板在这次实测中显示 50%。当 `RM7-E1L3` 处于维护时，连接 `RM7-N2ECP` 和直接连接剧情节点均报无可用路径。此时可用游戏地图的维护倒计时确定何时重查连接。
+
 社区攻略指出，取得访问后可查找 `attack_logs.log` 和 `ad_note.png`，回 `CEDRT Work Chat` 找 Chris，再联系 Aurana。节点内访问和后续对话待实测。[社区 Act 3 攻略](https://mrsouer.com/guides/cor3/cor3-act-3)
 
 ## Private Matters
