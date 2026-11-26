@@ -55,7 +55,7 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 实测先连接 `B43274N`，再在游戏地图搜索 `854.266.7.3`，可发现 `B43273N`。节点显示在线、类型 `D4RK/B1N`、防御 12。复查时 `D4RK RM7EG` 和 `B43274N` 都可连通，连接 `B43273N` 仍报无可用路径。`B43274N` 的 SAI 显示暂无有效访问。[社区地图存档](https://github.com/3ncy/cor3/blob/main/Network%20map/README.md)
 
-2026 年 7 月 15 日的更新公告提到 `Ghost Protocol` 有专用路线。实测 `Quests` 显示 301 完成时，`Hints` 已给出 302 的文件线索。专用路线入口仍待验证。[CORE Corp. 更新公告](https://x.com/cor3corp/status/2077380652043731442)
+2026 年 7 月 15 日的更新公告提到 `Ghost Protocol` 有专用路线。实测将 `Private Matters` 推进到 40%，在 `B43274N` 和 `B43271N` 取得访问并打开合并后的图像之后，从 `B43274N` 再连 `B43273N` 成功。可用同一顺序复查先前报无路由的节点。此时目标 SAI 显示 12 点防御，暂无有效访问，登录后的文件领取仍待验证。[CORE Corp. 更新公告](https://x.com/cor3corp/status/2077380652043731442)
 
 ## Ghost Protocol suite
 
@@ -67,9 +67,14 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 ## Private Matters
 
-在 `RM7-N2ECP` 的游戏内 ICE WALL 完成图案挑战后，打开 SAI，阅读与 Ozren Navratil 有关的 Valeriani 文件。按文件里的游戏内联系人加入 Messenger，完成开场对话会推进到 20%。后续线索指向失踪的 CEDRT 管理员 Garrett Sloan，结局待验证。
+1. 在 `RM7-N2ECP` 的游戏内 ICE WALL 完成图案挑战后，打开 SAI，阅读与 Ozren Navratil 有关的 Valeriani 文件。按文件里的游戏内联系人加入 Messenger，完成开场对话会推进到 20%。
+2. 按 [Paid ICE WALL](market.md#paid-ice-wall) 在 `RM7-S4WCP` 取得有效访问。从 `Files` 下载标有 `QUEST_RELATED` 的 `message_4237122_secured.eb54x`，在游戏桌面打开。
+3. 显示加密强度 24 且当前解密工具不兼容时，实测可从文件窗的 `Force hack` 开启 500 CR 的[终端参数谜题](puzzles.md#terminal-configuration)。通过后桌面生成 `.dat`，并提示可联系 Ozren。
+4. 回 Messenger 完成关于 Garrett Sloan 的回复，继续直到接受他的委托。实测收到 10,000 CR，任务推进到 33%。法典中的后续线索指向游戏内的 4D4RK。
+5. 在 `B43274N` 和 `B43271N` 的 SAI 复查挑战。实测这次分别报价 1,000 CR 和 1,200 CR。通过 ICE WALL 后，选中新增访问并登录，在两个节点的 `Files` 分别取得 `d4_CTF_lott0792_p2.vrnm` 和 `d4_CTF_lott0792_p1.vrnm`。
+6. 在游戏桌面打开任一分片，确认提示已收集所有文件，再点「合并」。打开生成的 `d4_CTF_lott0792.png`。实测图像提供 `4D4RKJUMP3RS.corie`，任务推进到 40%。在 COR3 自带 Browser 查询此地址曾显示「网关超时」，更后面的剧情待验证。
 
-Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON Garrett Sloan` 返回无匹配。Ozren 对话中指向的下一处调查范围是游戏内 CEDRT 资料。
+Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON Garrett Sloan` 返回无匹配，`RM7-S4WCP` 的剧情文件可推进调查。
 
 ## June
 
