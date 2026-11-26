@@ -73,3 +73,9 @@
 1. 点 `Start`，对照同批条目的时间、事件名及 `/sector`、`/status` 字段，选出两条格式异常，再点 `Confirm Selection`。
 2. 在 `Format Revision` 逐条用 `Fix Error` 选择错误原因。实测过漏写 `/sector` 和事件名拼错两类。界面会按所选原因生成修正后的条目。
 3. 点 `Confirm Fixes`，核对修正结果，再点 `Run Re-scan`。实测显示 `Clean` 后，日常页标记完成，余额自动增加 300 CR。
+
+### 信号解码
+
+1. 点 `Get Signal`，根据时间轴上的脉冲长度和停顿选择编码。实测的 Morse Numeric 关卡每五个脉冲是一位数字。显示成连续短条的一组长脉冲算一次 `L`。
+2. 点 `Select Encoding`，选 `Morse Numeric (0-9)` 后点 `Decode Signal`。用界面的编码表逐位对照，输入当前信号对应的数字。
+3. 点 `Confirm Code`。实测显示 `DECODE STATUS: VERIFIED` 和 300 CR，日常面板标记完成，余额自动增加。

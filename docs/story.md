@@ -32,6 +32,8 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 商品详情的 GPU 算力最低值为 0.85 PFLOPS，显存最低值为 0.4 TB。实测 `UNO 6.651`、`OmniPix 23.2` 和 6 TB `Emerald H3S12` 可以安装 RE-nova，装机后入侵强度为 12，搜索强度为 7。目标节点仍显示 15 点防御并禁用登录。仅更换这款内存和软件不足以走通 301 的这条路线。比较新 GPU 前也要核对电源，实测整机已用满 2 kW。
 
+在 `Loadout > 更换` 核对备件时，`M-Mate J12-40` 的最高频率为 7.2 GHz，低于 RE-nova 的 11.2 GHz 基础需求。`UNO 6.651` 的 0.8 kW 与市场 `Force Recon 13D` 的 1.6 kW 合计需要 2.4 kW。准备这套配装时应连同电源一起核算，装机后的强度仍待实测。
+
 ## Private Matters
 
 在 `RM7-N2ECP` 的游戏内 ICE WALL 完成图案挑战后，打开 SAI，阅读与 Ozren Navratil 有关的 Valeriani 文件。按文件里的游戏内联系人加入 Messenger，完成开场对话会推进到 20%。后续线索指向失踪的 CEDRT 管理员 Garrett Sloan，结局待验证。
