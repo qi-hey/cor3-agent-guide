@@ -24,7 +24,7 @@
 
 ## A deal with the unknown
 
-Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至少一年订阅。先看市场是否上架，再核对物品能否交付。
+Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至少一年订阅。可以先按下文查看 Home Market 的 `Nutcracker`。
 
 任务提示还列出另一个游戏内选项，即获取该节点的 SAI 访问。`RE-nova v3.0` 曾在市场显示兼容 EMERMODE，CRL 2.0 时的一次报价为 15,755 CR。购买前核对兼容性和实际可装配强度，安装后再检查能否满足界面的 15 点防御要求。两条路线的最终交付均待验证。
 
@@ -33,6 +33,12 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 商品详情的 GPU 算力最低值为 0.85 PFLOPS，显存最低值为 0.4 TB。实测 `UNO 6.651`、`OmniPix 23.2` 和 6 TB `Emerald H3S12` 可以安装 RE-nova，装机后入侵强度为 12，搜索强度为 7。目标节点仍显示 15 点防御并禁用登录。仅更换这款内存和软件不足以走通 301 的这条路线。比较新 GPU 前也要核对电源，实测整机已用满 2 kW。
 
 在 `Loadout > 更换` 核对备件时，`M-Mate J12-40` 的最高频率为 7.2 GHz，低于 RE-nova 的 11.2 GHz 基础需求。`UNO 6.651` 的 0.8 kW 与市场 `Force Recon 13D` 的 1.6 kW 合计需要 2.4 kW。准备这套配装时应连同电源一起核算，装机后的强度仍待实测。
+
+## Nutcracker market listing
+
+实测 `Home Market > File` 上架 `Nutcracker`。当时售价 28,750 CR，要求 CRL 1.0，库存 1 件。打开游戏内市场时重新核对价格和库存。
+
+社区攻略指出，购买后可在 Messenger 把 `Nutcracker` 交给 `Unknown User`，换取 `EM[UNDEFINED]` 的 `Task Access`。拿到访问后，查找 `attack_logs.log` 和 `ad_note.png`，回 `CEDRT Work Chat` 找 Chris，再联系 Aurana。购买、交付和后续对话待实测。[社区 Act 3 攻略](https://mrsouer.com/guides/cor3/cor3-act-3)
 
 ## Private Matters
 

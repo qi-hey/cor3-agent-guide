@@ -9,6 +9,7 @@
     {"id": "byte-tx-71", "status": "verified", "path": "docs/story.md", "section": "Byte and TX-71"},
     {"id": "301", "status": "partial", "path": "docs/story.md", "section": "301 Broken server"},
     {"id": "unknown-user", "status": "partial", "path": "docs/story.md", "section": "A deal with the unknown"},
+    {"id": "nutcracker-market", "status": "verified", "path": "docs/story.md", "section": "Nutcracker market listing"},
     {"id": "private-matters", "status": "partial", "path": "docs/story.md", "section": "Private Matters"},
     {"id": "june", "status": "partial", "path": "docs/story.md", "section": "June"},
     {"id": "black-ledger", "status": "partial", "path": "docs/story.md", "section": "Black Ledger"},
