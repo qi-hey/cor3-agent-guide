@@ -123,7 +123,15 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 1. 任务面板显示 June 完成后，实测 July 已开放。到 `Codex > Entry 3: The Way > 2251 Crisis / July` 阅读个人日志。
 2. 在 Messenger 找 Christopher Tong，完成关于调查和地面联络人的对话，再向 Aurana Strogova 汇报录音。实测 July 到 38%，提示再次联系 Chris。
-3. 回 Chris 的对话选择 `Any luck?`，走完关于 Natalia Gromova 的回复。实测 July 到 50%。`Notifications > Hints` 提示到 CEDRT 节点取人员备份，并提示可用游戏内 `Force hack`。社区档案把加密文件 `c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p` 与 Natalia 的档案关联。所在节点和交付仍待实测。[社区文件索引](https://github.com/3ncy/cor3/blob/main/CEDRT%20Doissers/c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p.md)
+3. 回 Chris 的对话选择 `Any luck?`，走完关于 Natalia Gromova 的回复。实测 July 到 50%。`Notifications > Hints` 指向 CEDRT 人员备份。继续按 [July personnel backup](#july-personnel-backup) 取档案。
+
+## July personnel backup
+
+1. 在游戏地图连接 `RM7-N1L1`。实测 SAI 显示防御 13，提供 1,000 CR 的[付费图案挑战](market.md#paid-ice-wall)。通过后选新增的游戏访问，在 `Files` 下载 `cedrt-ddab-bckp213451.cr3z`。
+2. 在游戏桌面双击归档，打开生成的 `CEDRT Doissers` 文件夹。实测解出 20 个条目，July 推进到 63%。[社区提示档案](https://github.com/3ncy/cor3/blob/main/hints.md#2-september)
+3. 打开 `.ab52p` 文件，查看 `INFO TAG`。本次十个加密文件中有五个标记 `QUEST_RELATED`，另五个标记 `CORRUPTED`。优先解密与任务有关的文件。实测加密强度 15，装配后的 `Cypher+ v1.4` 显示解密强度 20。
+
+社区记录曾把 `c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p` 与 Natalia 的档案关联。本次同名条目显示已损坏。先看本轮文件的实际标签，再决定解密目标。[社区文件索引](https://github.com/3ncy/cor3/blob/main/CEDRT%20Doissers/c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p.md)
 
 ## Black Ledger
 
