@@ -76,6 +76,8 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 打开图像后可在 `法典 > 火星的沉默 > 1：私事` 阅读 ChuckTheFerry 的个人日志。日志提示还需确定该站点的托管节点。实测连接已取得访问的 `B43271N` 后，在游戏 Browser 输入完整站名仍显示「网关超时」。在 Network Map 搜索该站名返回 `0/0`。
 
+游戏 Browser 的地址栏可能保留初始的 `CORIE` 并把输入接在后面。提交前检查地址栏，遇到多余的前缀可按 `Home` 定位并用 `Delete` 删掉。连接 `B43274N` 和 `B43273N` 后，实测提交完整的 `https://4D4RKJUMP3RS.corie` 仍显示「网关超时」。
+
 Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON Garrett Sloan` 返回无匹配，`RM7-S4WCP` 的剧情文件可推进调查。
 
 ## June
@@ -127,6 +129,8 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 D-Badger 的 GPU 算力最低值为 0.72 PFLOPS，显存最低值为 0.83 TB。`OmniPix 23.2` 的总容量实测为 0.88 PFLOPS 和 1 TB 显存。`Loadout > 帮助` 说明并装时要计入其他程序的基础占用。按界面规格估算，若同装 `Cypher+ v1.4`，两款程序的 CPU 频率需求为 5 + 7.9 GHz，超过 `UNO 6.651` 的 12.7 GHz。购买前还要核对单独装机后能否达到 `B43273N` 所需的 12 点强度。
 
 按最紧缺资源在最低值与最高值之间的比例估算，与这套配装上三款模块的实测值相符。D-Badger 的显存范围为 0.83 至 1.85 TB，现有 1 TB 估算约 11 点。`Loadout > GPU > Change` 可核对备件。本轮可用列表只有现装 GPU，D-Badger 的实际强度和操作许可仍待验证。
+
+一次实测 `Force Recon 13D`（1.5 TB 显存）报价 30,935 CR，`Quartz 28-BR`（2.8 kW）报价 19,895 CR，与 `D-Badger v2.2` 合计 79,120 CR。可在同一市场核对这三项的实时价格和库存。
 
 ## SOYUZ route
 
