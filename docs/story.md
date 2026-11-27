@@ -130,6 +130,7 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 1. 在游戏地图连接 `RM7-N1L1`。实测 SAI 显示防御 13，提供 1,000 CR 的[付费图案挑战](market.md#paid-ice-wall)。通过后选新增的游戏访问，在 `Files` 下载 `cedrt-ddab-bckp213451.cr3z`。
 2. 在游戏桌面双击归档，打开生成的 `CEDRT Doissers` 文件夹。实测解出 20 个条目，July 推进到 63%。[社区提示档案](https://github.com/3ncy/cor3/blob/main/hints.md#2-september)
 3. 打开 `.ab52p` 文件，查看 `INFO TAG`。本次十个加密文件中有五个标记 `QUEST_RELATED`，另五个标记 `CORRUPTED`。优先解密与任务有关的文件。实测加密强度 15，装配后的 `Cypher+ v1.4` 显示解密强度 20。
+4. 本次 `2b4d6e8f1a3c5b7d9e2f4a6c8e0b2d.ab52p` 通过三轮图案后生成 `Doisser Natalia Gromova.docx`。打开它，实测 July 到 75%，提示等待平板送达，面板未显示具体时间。
 
 社区记录曾把 `c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p` 与 Natalia 的档案关联。本次同名条目显示已损坏。先看本轮文件的实际标签，再决定解密目标。[社区文件索引](https://github.com/3ncy/cor3/blob/main/CEDRT%20Doissers/c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p.md)
 
