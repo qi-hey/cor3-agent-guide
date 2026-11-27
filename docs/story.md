@@ -101,6 +101,14 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 1. 在 `Codex > Martian Silence > Private Matters` 查看个人日志。回 `Messenger > Ozren Navratil` 提出火星通信方案，走完关于 Urizen 的对话。实测任务进度为 80%。
 2. 回 4D4RK 站内找 ChuckTheFerry，询问待售卫星的识别标记，选择 `Deal`。实测个人日志更新为 `Waiting on ChuckTheFerry`，任务进度为 87%。后续回复需在站内对话复查。
 
+卫星节点的连接与文件检查见 [RM7-ST/A-S4 route](#rm7-sta-s4-route)。
+
+## RM7-ST/A-S4 route
+
+1. 在 `Home Market > Access` 核对已有的 `RM7-E1SCP Transit` 显示「已激活」。南区 `RM7-S4L4` 维护结束后，实测连通该节点，再连接 `RM7-ST/A-S4`。同次 `RM7-E1L5` 已连通，`RM7-E1SCP` 显示维护。
+2. 在卫星节点的 SAI 选择已有的 `By Hack` 访问并登录，等摘要加载后打开 `Files`。实测可以看到普通文件。
+3. 检查 ChuckTheFerry 的对话是否更新。实测在最后一条仍为 `Deal` 时，文件列表没有卫星剧情附件，《私事》显示 87%。
+
 ## June
 
 1. 从桌面的 `Chris_Tong_Intel` 打开 `Forum_Screenshot.png`，核对游戏的法典更新通知。

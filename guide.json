@@ -17,6 +17,7 @@
     {"id": "private-matters-chat", "status": "verified", "path": "docs/story.md", "section": "Private Matters chat"},
     {"id": "private-matters-evidence", "status": "verified", "path": "docs/story.md", "section": "Private Matters evidence"},
     {"id": "private-matters-satellite", "status": "partial", "path": "docs/story.md", "section": "Private Matters satellite"},
+    {"id": "private-matters-satellite-route", "status": "verified", "path": "docs/story.md", "section": "RM7-ST/A-S4 route"},
     {"id": "june", "status": "partial", "path": "docs/story.md", "section": "June"},
     {"id": "june-media-reader", "status": "verified", "path": "docs/story.md", "section": "June media reader"},
     {"id": "july", "status": "partial", "path": "docs/story.md", "section": "July"},
