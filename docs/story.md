@@ -86,6 +86,16 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 `RM7-E1L2CT` 的 SAI 实测为 7 点防御。选择已有的「通过工具授予」访问后，在 `Files` 可以找回 Christopher Tong 的邮件、板卡资料和 Mantis 图片。复查这些线索后，June 仍显示 70%。
 
+从 70% 继续推进时，见 [June media reader](#june-media-reader)。
+
+## June media reader
+
+1. 连接 `RM7-S4L2`，在 SAI 选择已生效的 `By Hack` 访问并登录。到 `Files` 下载 `USSDP-V1250_Rep.AD64`。
+2. 在游戏桌面双击文件。文件从桌面消失时，到 `MR-7 Media Reader 78x` 核对 `USSDP-V1250_Rep` 是否已加入可选磁盘。
+3. 用 `Next disk` 选中新盘，点 `Insert USSDP-V1250_Rep`，再双击文件列表中的 `USSDP-V1250_Rep.AD64`。实测打开片段时间线，`C1` 显示 `MQ-01 — June`，任务面板显示 80%。
+
+[社区提示存档](https://github.com/3ncy/cor3/blob/main/hints.md#june-quest)
+
 ## Black Ledger
 
 1. 连上 `RM7-S4L4`，用有效的游戏内 SAI 访问打开 Files。下载并打开 `cufgu ab ginhu Koute.png`。
@@ -105,6 +115,8 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 在 `B43274N` 已连接时，在游戏地图搜索 `854.266.7.1` 并按 Enter，实测发现 `B43271N`。连接 `RM7-E1L2CT` 后可连到 `B43271N`，其 SAI 显示 27 点防御和暂无有效访问。`D4RK 2IV2` 实测也能连通，节点显示 22 点防御，地图未显示市场入口。
 
 连接 `D4RK RM7EG` 和 `B43274N` 后，实测也可连到 `B43272N`。其 SAI 显示 36 点防御和暂无有效访问。
+
+接取 `IP Cleanup` 前，核对市场和地图使用的节点名称。一次在地图搜索委托所写的 `D4RK T43272` 返回 `0/0`。可连通的 `B43272N` 仍需分别核对访问。另一笔委托的 `D4RK RM7CE` 可连通，SAI 显示类型 `D4RK T4`、防御 15 且暂无有效访问。
 
 `D4RK RM7EG` 曾出现 Decrypt & Extract 委托。接单前打开游戏 SAI，实测防御为 15，且未显示有效访问。先核对能否取得游戏访问，再决定是否接单。
 
