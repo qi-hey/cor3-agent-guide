@@ -86,8 +86,8 @@
 ### 系统日志完整性
 
 1. 点 `Start`，对照同批条目的时间、事件名及 `/sector`、`/status` 字段，选出两条格式异常，再点 `Confirm Selection`。
-2. 在 `Format Revision` 逐条用 `Fix Error` 选择错误原因。实测过漏写 `/sector` 和事件名拼错两类。界面会按所选原因生成修正后的条目。
-3. 点 `Confirm Fixes`，核对修正结果，再点 `Run Re-scan`。实测显示 `Clean` 后，日常页标记完成，余额自动增加 300 CR。
+2. 在 `Format Revision` 各自在对应的行内用 `Fix Error` 选择错误原因。实测过漏写 `/sector`、事件名拼错，以及把 `/status` 的 `OK` 写成 `OKAY`。界面会按所选原因生成修正后的条目。
+3. 点 `Confirm Fixes`，核对修正结果，再点 `Run Re-scan`。实测显示 `Clean` 后，日常页标记完成，余额自动增加 300 CR，同次结算名望不变。结算窗口仍挡住底栏时，用游戏内窗口右上角关闭它。
 
 ### 信号解码
 

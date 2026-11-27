@@ -59,7 +59,7 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 ## Ghost Protocol suite
 
-社区归档的 `chat_fragments.txt` 指向游戏节点 `Koute_Secure_Hub`。将节点名直接填入游戏 Browser，实测显示页面未找到。[剧情材料存档](https://github.com/3ncy/cor3/blob/main/chat_fragments.txt)
+社区归档的 `chat_fragments.txt` 指向游戏节点 `Koute_Secure_Hub`。将节点名直接填入游戏 Browser，实测显示页面未找到。在 Network Map 搜索 `Koute Secure Hub` 时返回 `0/0`。[剧情材料存档](https://github.com/3ncy/cor3/blob/main/chat_fragments.txt)
 
 社区归档的 Personal Log 记录了下载并打开 `chat_fragments.txt` 后出现的线索，可据此检查 Codex 是否更新，以及 Palimpsest 是否提供后续对话。[个人日志存档](https://github.com/3ncy/cor3/blob/main/Codex/Entry%203%20The%20Way/Personal%20Log.md)
 
@@ -73,6 +73,8 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 4. 回 Messenger 完成关于 Garrett Sloan 的回复，继续直到接受他的委托。实测收到 10,000 CR，任务推进到 33%。法典中的后续线索指向游戏内的 4D4RK。
 5. 在 `B43274N` 和 `B43271N` 的 SAI 复查挑战。实测这次分别报价 1,000 CR 和 1,200 CR。通过 ICE WALL 后，选中新增访问并登录，在两个节点的 `Files` 分别取得 `d4_CTF_lott0792_p2.vrnm` 和 `d4_CTF_lott0792_p1.vrnm`。
 6. 在游戏桌面打开任一分片，确认提示已收集所有文件，再点「合并」。打开生成的 `d4_CTF_lott0792.png`。实测图像提供 `4D4RKJUMP3RS.corie`，任务推进到 40%。在 COR3 自带 Browser 查询此地址曾显示「网关超时」，更后面的剧情待验证。
+
+打开图像后可在 `法典 > 火星的沉默 > 1：私事` 阅读 ChuckTheFerry 的个人日志。日志提示还需确定该站点的托管节点。实测连接已取得访问的 `B43271N` 后，在游戏 Browser 输入完整站名仍显示「网关超时」。在 Network Map 搜索该站名返回 `0/0`。
 
 Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON Garrett Sloan` 返回无匹配，`RM7-S4WCP` 的剧情文件可推进调查。
 
@@ -102,9 +104,15 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 在 `B43274N` 已连接时，在游戏地图搜索 `854.266.7.1` 并按 Enter，实测发现 `B43271N`。连接 `RM7-E1L2CT` 后可连到 `B43271N`，其 SAI 显示 27 点防御和暂无有效访问。`D4RK 2IV2` 实测也能连通，节点显示 22 点防御，地图未显示市场入口。
 
-`Home Market > Software` 的 `D-Badger v2.2` 一次实测报价为 28,290 CR，要求 CRL 4.0，兼容 `D4RK/B1N`。商品详情的 GPU 算力最低值为 0.72 PFLOPS、显存最低值为 0.83 TB。装机强度和 302 任务用途仍待验证。
+连接 `D4RK RM7EG` 和 `B43274N` 后，实测也可连到 `B43272N`。其 SAI 显示 36 点防御和暂无有效访问。
 
 `D4RK RM7EG` 曾出现 Decrypt & Extract 委托。接单前打开游戏 SAI，实测防御为 15，且未显示有效访问。先核对能否取得游戏访问，再决定是否接单。
+
+## D-Badger loadout check
+
+`Home Market > Software` 的 `D-Badger v2.2` 实测报价为 28,290 CR，要求 CRL 4.0，兼容 `D4RK/B1N`。点商品名可查看完整属性。详情标明需要专门的操作许可，工具在 302 的实际可用性待验证。
+
+D-Badger 的 GPU 算力最低值为 0.72 PFLOPS，显存最低值为 0.83 TB。`OmniPix 23.2` 的总容量实测为 0.88 PFLOPS 和 1 TB 显存。`Loadout > 帮助` 说明并装时要计入其他程序的基础占用。按界面规格估算，若同装 `Cypher+ v1.4`，两款程序的 CPU 频率需求为 5 + 7.9 GHz，超过 `UNO 6.651` 的 12.7 GHz。购买前还要核对单独装机后能否达到 `B43273N` 所需的 12 点强度。
 
 ## SOYUZ route
 
