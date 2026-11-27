@@ -72,13 +72,34 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 3. 显示加密强度 24 且当前解密工具不兼容时，实测可从文件窗的 `Force hack` 开启 500 CR 的[终端参数谜题](puzzles.md#terminal-configuration)。通过后桌面生成 `.dat`，并提示可联系 Ozren。
 4. 回 Messenger 完成关于 Garrett Sloan 的回复，继续直到接受他的委托。实测收到 10,000 CR，任务推进到 33%。法典中的后续线索指向游戏内的 4D4RK。
 5. 在 `B43274N` 和 `B43271N` 的 SAI 复查挑战。实测这次分别报价 1,000 CR 和 1,200 CR。通过 ICE WALL 后，选中新增访问并登录，在两个节点的 `Files` 分别取得 `d4_CTF_lott0792_p2.vrnm` 和 `d4_CTF_lott0792_p1.vrnm`。
-6. 在游戏桌面打开任一分片，确认提示已收集所有文件，再点「合并」。打开生成的 `d4_CTF_lott0792.png`。实测图像提供 `4D4RKJUMP3RS.corie`，任务推进到 40%。在 COR3 自带 Browser 查询此地址曾显示「网关超时」，更后面的剧情待验证。
+6. 在游戏桌面打开任一分片，确认提示已收集所有文件，再点「合并」。打开生成的 `d4_CTF_lott0792.png`。实测图像提供 `4D4RKJUMP3RS.corie`，任务推进到 40%。继续按 [Private Matters chat](#private-matters-chat) 进入剧情站。
 
 打开图像后可在 `法典 > 火星的沉默 > 1：私事` 阅读 ChuckTheFerry 的个人日志。日志提示还需确定该站点的托管节点。实测连接已取得访问的 `B43271N` 后，在游戏 Browser 输入完整站名仍显示「网关超时」。在 Network Map 搜索该站名返回 `0/0`。
 
 游戏 Browser 的地址栏可能保留初始的 `CORIE` 并把输入接在后面。提交前检查地址栏，遇到多余的前缀可按 `Home` 定位并用 `Delete` 删掉。连接 `B43274N` 和 `B43273N` 后，实测提交完整的 `https://4D4RKJUMP3RS.corie` 仍显示「网关超时」。
 
 Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON Garrett Sloan` 返回无匹配，`RM7-S4WCP` 的剧情文件可推进调查。
+
+## Private Matters chat
+
+1. 在游戏地图连接 `D4RK RM7EG`，再在 COR3 自带 Browser 打开 `https://4D4RKJUMP3RS.corie`。实测该节点能打开 `Sign Up` 页面。地址栏保留 `CORIE` 前缀时，先删掉多余前缀再提交。
+2. 在游戏剧情表单设置昵称，填当前角色的 `FREEL ID`。提交后从游戏内 Messenger 读取六位验证码，回剧情页面填写并点 `Submit`。
+3. 在站内搜索框搜索 `ChuckTheFerry`。实测首次进入时右侧虽有他的名字，仍显示 `No chat`。点搜索按钮使对话出现在 `Last chats`，再选中该条目。
+4. 按剧情回复接受收集五份 CEDRT 节点记录的委托。实测对话出现 `Attach file`，`Notifications > Quests` 显示 `Private Matters` 67%。继续按 [Private Matters evidence](#private-matters-evidence) 收集和交付。
+
+`Notifications > Hints` 指定在 `CEDRT public` 或 `CEDRT private` 节点使用带搜索强度的软件，点 `Search for valuables`。下载并打开找到的文件，识别 `Crime evidence`、`Offence planning`、`Illegal activity` 或 `COR3 protocol violation` 标签。
+
+## Private Matters evidence
+
+1. 在 `Home Market > Software` 查看 `Seeker-IV v0.6`。实测报价 10,580 CR、要求 CRL 1.0，兼容 `CEDRT public` 和 `CEDRT private`。按商品详情核对装机条件。用 `UNO 6.651`、`OmniPix 23.2` 和 6 TB `Emerald H3S12` 装机后，`RM7-E1L3` 的 SAI 实测显示 12 点搜索强度。
+2. 用现有游戏访问登录，进 `Files` 点 `Search for valuables`。实测 `RM7-E1L3` 和 `RM7-E1L5` 均有结果。逐笔点下载并在游戏 Downloads 核对文件。实测换装 `RE-nova v3.0` 后，`RM7-E1L3` 的搜索工具栏仍显示 0。
+3. 在游戏 Downloads 打开文件，检查 `SOURCE` 和 `INFO TAG`。实测从 `RM7-E1L3`、`RM7-E1L5` 和 `RM7-S4L1` 凑齐五份材料。生成的文件名按本轮服务器显示。结果窗点下载后，若 Downloads 缺文件，可回同一节点的 `Files` 用该行下载按钮重新取文件。
+4. 连回 `D4RK RM7EG`，打开站内 ChuckTheFerry 的对话。每次用 `Attach file > Downloads` 选一份合格材料，点 `Attach` 并等对方回复。实测五份均被接收，对方发来 `Svyaz_PTLS2_LUCh.jpg`。点击 `Open` 查看图片，确认法典更新及任务面板的 73%。
+
+## Private Matters satellite
+
+1. 在 `Codex > Martian Silence > Private Matters` 查看个人日志。回 `Messenger > Ozren Navratil` 提出火星通信方案，走完关于 Urizen 的对话。实测任务进度为 80%。
+2. 回 4D4RK 站内找 ChuckTheFerry，询问待售卫星的识别标记，选择 `Deal`。实测个人日志更新为 `Waiting on ChuckTheFerry`，任务进度为 87%。后续回复需在站内对话复查。
 
 ## June
 
@@ -97,6 +118,12 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 3. 用 `Next disk` 选中新盘，点 `Insert USSDP-V1250_Rep`，再双击文件列表中的 `USSDP-V1250_Rep.AD64`。实测打开片段时间线，`C1` 显示 `MQ-01 — June`，任务面板显示 80%。
 
 [社区提示存档](https://github.com/3ncy/cor3/blob/main/hints.md#june-quest)
+
+## July
+
+1. 任务面板显示 June 完成后，实测 July 已开放。到 `Codex > Entry 3: The Way > 2251 Crisis / July` 阅读个人日志。
+2. 在 Messenger 找 Christopher Tong，完成关于调查和地面联络人的对话，再向 Aurana Strogova 汇报录音。实测 July 到 38%，提示再次联系 Chris。
+3. 回 Chris 的对话选择 `Any luck?`，走完关于 Natalia Gromova 的回复。实测 July 到 50%。`Notifications > Hints` 提示到 CEDRT 节点取人员备份，并提示可用游戏内 `Force hack`。社区档案把加密文件 `c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p` 与 Natalia 的档案关联。所在节点和交付仍待实测。[社区文件索引](https://github.com/3ncy/cor3/blob/main/CEDRT%20Doissers/c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p.md)
 
 ## Black Ledger
 
