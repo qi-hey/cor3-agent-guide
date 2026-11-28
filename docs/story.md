@@ -57,6 +57,8 @@ Unknown User 在首次对话提出交换条件。游戏内防火墙需要带至�
 
 2026 年 7 月 15 日的更新公告提到 `Ghost Protocol` 有专用路线。实测将 `Private Matters` 推进到 40%，在 `B43274N` 和 `B43271N` 取得访问并打开合并后的图像之后，从 `B43274N` 再连 `B43273N` 成功。可用同一顺序复查先前报无路由的节点。此时目标 SAI 显示 12 点防御，暂无有效访问，登录后的文件领取仍待验证。[CORE Corp. 更新公告](https://x.com/cor3corp/status/2077380652043731442)
 
+已有 `RM7-E1SCP Transit` 时，也可按 [D4RK via RM7-E1SCP](#d4rk-via-rm7-e1scp) 复查连通性和目标访问权限。
+
 ## Ghost Protocol suite
 
 社区归档的 `chat_fragments.txt` 指向游戏节点 `Koute_Secure_Hub`。将节点名直接填入游戏 Browser，实测显示页面未找到。在 Network Map 搜索 `Koute Secure Hub` 时返回 `0/0`。[剧情材料存档](https://github.com/3ncy/cor3/blob/main/chat_fragments.txt)
@@ -165,6 +167,13 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 接取 `IP Cleanup` 前，核对市场和地图使用的节点名称。一次在地图搜索委托所写的 `D4RK T43272` 返回 `0/0`。可连通的 `B43272N` 仍需分别核对访问。另一笔委托的 `D4RK RM7CE` 可连通，SAI 显示类型 `D4RK T4`、防御 15 且暂无有效访问。
 
 `D4RK RM7EG` 曾出现 Decrypt & Extract 委托。接单前打开游戏 SAI，实测防御为 15，且未显示有效访问。先核对能否取得游戏访问，再决定是否接单。
+
+## D4RK via RM7-E1SCP
+
+1. 在 `Home Market > Access` 核对 `RM7-E1SCP Transit` 已激活。在游戏地图确认 `RM7-E1L5` 和 `RM7-E1SCP` 已连通。此次实测时 `RM7-E1SCP` 刚结束维护。
+2. 依次选中 `D4RK RM7CE`、`D4RK RM7MI`、`D4RK RM7EG` 和 `B43274N`。遇到「连接」就点击，等界面出现「断开连接」再去下一站。地图视野里看不到下一站时，可搜索节点名并用回车定位。同轮尝试连接 `RM7-S4L3` 时，游戏提示「无可用路径」。
+3. 从 `B43274N` 连到 `B43273N`，打开游戏内 SAI 核对有效访问。本次目标防御为 12，暂无有效访问，`chat_fragments.txt` 仍待取得。
+4. 查《私事》对话时，可以在 `D4RK RM7EG` 已连通后打开游戏 Browser 中的 4D4RK 书签。本次实测站点可加载，ChuckTheFerry 的最后一条对话仍为「成交」。
 
 ## D-Badger loadout check
 

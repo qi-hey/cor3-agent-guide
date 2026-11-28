@@ -24,6 +24,7 @@
     {"id": "july-personnel-backup", "status": "verified", "path": "docs/story.md", "section": "July personnel backup"},
     {"id": "black-ledger", "status": "partial", "path": "docs/story.md", "section": "Black Ledger"},
     {"id": "d4rk-route", "status": "partial", "path": "docs/story.md", "section": "D4RK route"},
+    {"id": "d4rk-e1scp-transit-route", "status": "verified", "path": "docs/story.md", "section": "D4RK via RM7-E1SCP"},
     {"id": "d-badger-loadout", "status": "partial", "path": "docs/story.md", "section": "D-Badger loadout check"},
     {"id": "soyuz-route", "status": "partial", "path": "docs/story.md", "section": "SOYUZ route"},
     {"id": "305", "status": "unverified", "path": "docs/story.md", "section": "305 Herald's Trail"},
