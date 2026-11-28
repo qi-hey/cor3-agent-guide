@@ -157,6 +157,12 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 2. 在 `Files` 下载两份 `auto_control` 监控图像，等各自出现在游戏桌面再打开。实测分别推进到 29% 和 36%。
 3. 查看更新后的八月个人日志，回信使将情况告知 Christopher Tong。走完对话后实测 43%，等待信使后续消息。
 
+## August tablet
+
+1. 在信使收到 Christopher Tong 确认平板已交给 Natalia Gromova 的消息后，询问下一步。实测他会发来推荐信、平板的游戏内地址和 Natalia 的联系人编号。完成该段对话后，任务面板显示 50%。
+2. 在 Network Map 搜索对话给出的 `855.529.8.2` 并按 Enter，实测定位到 `RM7-A2ES`，类型为 `CEDRT private`，显示 20 点防御。
+3. 一次复查已连通 `RM7-W3NCP`，连接 `RM7-A2ES` 时显示「无可用路径」。信使添加联系人未成功，提示面板显示「下一步暂未开放」。后续按当前游戏提示核对路由和权限。
+
 ## Black Ledger
 
 1. 连上 `RM7-S4L4`，用有效的游戏内 SAI 访问打开 Files。下载并打开 `cufgu ab ginhu Koute.png`。

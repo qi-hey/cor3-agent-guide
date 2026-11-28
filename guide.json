@@ -24,6 +24,7 @@
     {"id": "july", "status": "verified", "path": "docs/story.md", "section": "July"},
     {"id": "july-personnel-backup", "status": "verified", "path": "docs/story.md", "section": "July personnel backup"},
     {"id": "august", "status": "partial", "path": "docs/story.md", "section": "August"},
+    {"id": "august-tablet", "status": "partial", "path": "docs/story.md", "section": "August tablet"},
     {"id": "black-ledger", "status": "partial", "path": "docs/story.md", "section": "Black Ledger"},
     {"id": "d4rk-route", "status": "partial", "path": "docs/story.md", "section": "D4RK route"},
     {"id": "d4rk-e1scp-transit-route", "status": "verified", "path": "docs/story.md", "section": "D4RK via RM7-E1SCP"},
