@@ -31,6 +31,7 @@
     {"id": "soyuz-route", "status": "partial", "path": "docs/story.md", "section": "SOYUZ route"},
     {"id": "305", "status": "unverified", "path": "docs/story.md", "section": "305 Herald's Trail"},
     {"id": "market-jobs", "status": "verified", "path": "docs/market.md", "section": "Market Job"},
+    {"id": "regional-markets", "status": "verified", "path": "docs/market.md", "section": "Regional markets"},
     {"id": "decrypt-and-extract", "status": "verified", "path": "docs/market.md", "section": "Decrypt & Extract"},
     {"id": "loadout-power", "status": "verified", "path": "docs/market.md", "section": "Loadout and power"},
     {"id": "paid-ice-wall", "status": "verified", "path": "docs/market.md", "section": "Paid ICE WALL"},
