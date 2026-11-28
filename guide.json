@@ -34,6 +34,7 @@
     {"id": "stash-sale-quotes", "status": "verified", "path": "docs/market.md", "section": "Stash sale quotes"},
     {"id": "transit", "status": "verified", "path": "docs/market.md", "section": "Transit access"},
     {"id": "daily-ops", "status": "verified", "path": "docs/market.md", "section": "Daily Ops"},
+    {"id": "daily-ops-signal-decode", "status": "verified", "path": "docs/market.md", "section": "信号解码"},
     {"id": "ice-wall-pattern", "status": "verified", "path": "docs/puzzles.md", "section": "ICE WALL pattern"},
     {"id": "terminal-configuration", "status": "verified", "path": "docs/puzzles.md", "section": "Terminal configuration"},
     {"id": "puzzle-cooldown", "status": "verified", "path": "docs/puzzles.md", "section": "Timer and cooldown"},

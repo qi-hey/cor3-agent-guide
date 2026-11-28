@@ -88,7 +88,7 @@
 
 ## Daily Ops
 
-从桌面底栏打开 `Game Center > 日常行动`。`System Log Integrity` 和 `Signal Decode` 都有实测领奖，分别显示 300 CR。音频信号用当前界面的长短信号逐位识别。完成后核对「所有任务已完成」和当日奖励，按该面板的倒计时等下一批。已完成的行动可能仍显示「重玩」。
+从桌面底栏打开 `Game Center > 日常行动`。`System Log Integrity` 和 [Signal Decode](#信号解码) 都有实测领奖，分别显示 300 CR。完成后核对「所有任务已完成」和当日奖励，按该面板的倒计时等下一批。已完成的行动可能仍显示「重玩」。
 
 刚打开面板时，曾短暂出现「新任务已开放」和 `00h 00m 00s`。等当日进度和奖励加载后，再按实际倒计时安排续玩。
 
@@ -98,8 +98,9 @@
 2. 在 `Format Revision` 各自在对应的行内用 `Fix Error` 选择错误原因。实测过漏写 `/sector`、事件名拼错，以及把 `/status` 的 `OK` 写成 `OKAY`。界面会按所选原因生成修正后的条目。
 3. 点 `Confirm Fixes`，核对修正结果，再点 `Run Re-scan`。实测显示 `Clean` 后，日常页标记完成，余额自动增加 300 CR，同次结算名望不变。结算窗口仍挡住底栏时，用游戏内窗口右上角关闭它。
 
-### 信号解码
+## 信号解码
 
-1. 点 `Get Signal`，根据时间轴上的脉冲长度和停顿选择编码。实测的 Morse Numeric 关卡每五个脉冲是一位数字。显示成连续短条的一组长脉冲算一次 `L`。
-2. 点 `Select Encoding`，选 `Morse Numeric (0-9)` 后点 `Decode Signal`。用界面的编码表逐位对照，输入当前信号对应的数字。
-3. 点 `Confirm Code`。实测显示 `DECODE STATUS: VERIFIED` 和 300 CR，日常面板标记完成，余额自动增加。
+1. 点 `Get Signal`，观察脉冲长度和停顿。连续短条画出的一组长脉冲算一个 `L`。
+2. 点 `Select Encoding`，选与波形对应的编码。有明显组间停顿的 `Morse Numeric (0-9)` 每五个脉冲是一位数字。间隔较均匀的 `Binary Numeric` 每四个脉冲是一位数字，短脉冲 `S` 对应 `0`，长脉冲 `L` 对应 `1`。例如 `S L S L` 是 `0101`，对应数字 `5`。
+3. 点 `Decode Signal`，按编码表逐组读取，核对输入框旁要求的数字位数。实测有三位数的二进制关卡，对应十二个脉冲。
+4. 输入当前信号对应的数字，点 `Confirm Code`。两种编码均实测显示 `DECODE STATUS: VERIFIED` 和 300 CR，日常面板标记完成，余额自动增加。
