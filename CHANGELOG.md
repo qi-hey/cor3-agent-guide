@@ -14,6 +14,8 @@
 - 实测信号解码日常的二进制分组和编码识别，核对 300 CR 到账。
 - 实测中转激活时经 `RM7-E1SCP`、`D4RK RM7CE` 和 `D4RK RM7MI` 连通 `B43273N`，复查目标 SAI 和 ChuckTheFerry 对话。
 - 记录解密时全盘显露后仍有两处完全匹配的情况，以及事件日志中实测的 12 秒和 13 秒误点扣时。
+- 核对东区工具访问和南区续期中转，实测 File Elimination 与 Log Deletion 均已结算。
+- 实测完成《私事》和 July，记录卫星标识、信使对话及 Fragile deal 和 August 的开放条件。
 
 ## 2026-11-27
 

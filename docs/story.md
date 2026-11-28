@@ -102,8 +102,14 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 1. 在 `Codex > Martian Silence > Private Matters` 查看个人日志。回 `Messenger > Ozren Navratil` 提出火星通信方案，走完关于 Urizen 的对话。实测任务进度为 80%。
 2. 回 4D4RK 站内找 ChuckTheFerry，询问待售卫星的识别标记，选择 `Deal`。实测个人日志更新为 `Waiting on ChuckTheFerry`，任务进度为 87%。后续回复需在站内对话复查。
+3. 收到拾荒者回信后继续对话。实测 Chuck 提供 `Urizen Type B 2.317082`，打开新附件 `IMG_014625.jpg` 会更新法典。继续问交易条件，再回信使向 Ozren 汇报。
+4. 向 Ozren 解释需要请地面技术员提取数据，以及拾荒者要求用情报交换。接受敲定交易的委托后，任务面板实测《私事》完成，`Fragile deal` 开放。
 
 卫星节点的连接与文件检查见 [RM7-ST/A-S4 route](#rm7-sta-s4-route)。
+
+## Fragile deal
+
+完成《私事》后的首次检查显示 21%。已确认 Ozren 同意准备情报，并要求玩家与 ChuckTheFerry 敲定交易。后续交付仍待验证。
 
 ## RM7-ST/A-S4 route
 
@@ -134,6 +140,7 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 1. 任务面板显示 June 完成后，实测 July 已开放。到 `Codex > Entry 3: The Way > 2251 Crisis / July` 阅读个人日志。
 2. 在 Messenger 找 Christopher Tong，完成关于调查和地面联络人的对话，再向 Aurana Strogova 汇报录音。实测 July 到 38%，提示再次联系 Chris。
 3. 回 Chris 的对话选择 `Any luck?`，走完关于 Natalia Gromova 的回复。实测 July 到 50%。`Notifications > Hints` 指向 CEDRT 人员备份。继续按 [July personnel backup](#july-personnel-backup) 取档案。
+4. 档案读完后，在信使检查 Christopher Tong 的平板信使进展。收到新消息后询问他需要什么，再接受卫星侦察请求。实测 July 标为完成，`August` 开放。
 
 ## July personnel backup
 
@@ -143,6 +150,10 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 4. 本次 `2b4d6e8f1a3c5b7d9e2f4a6c8e0b2d.ab52p` 通过三轮图案后生成 `Doisser Natalia Gromova.docx`。打开它，实测 July 到 75%，提示等待平板送达，面板未显示具体时间。
 
 社区记录曾把 `c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p` 与 Natalia 的档案关联。本次同名条目显示已损坏。先看本轮文件的实际标签，再决定解密目标。[社区文件索引](https://github.com/3ncy/cor3/blob/main/CEDRT%20Doissers/c0e2b4d6f8a0c2b4d6e8f1a3c5b7d.ab52p.md)
+
+## August
+
+Christopher Tong 的新对话给出游戏内地址 `855.529.2.04`。按 [RM7-ST/A-S4 route](#rm7-sta-s4-route) 连接卫星节点，选择已有的游戏访问进入。实测任务面板初始为 14%，后续交付仍待验证。
 
 ## Black Ledger
 

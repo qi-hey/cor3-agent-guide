@@ -66,6 +66,8 @@
 
 `RM7-S4L3` 的 SAI 实测为 13 点防御。后续一轮复查时出现 1,000 CR 的 `Force hack` 入口。装着 `Seeker-IV v0.6` 通过三轮图案并选中 `By Hack` 访问后，完成了一笔 1,445 CR 的 Log Download 委托，扣除挑战费净增 445 CR。各轮以 SAI 的实时报价和入口为准。
 
+实测中转过期后仍能连到 `RM7-E1SCP`，并用 `Porter-lite r4` 的 12 点强度重新取得同强度节点的游戏访问，结算 1,333 CR 的 File Elimination。南区这时提示无可用路径。续期中转后按 `RM7-E1SCP`、`RM7-S4L2`、`RM7-S4L3` 连通，复用该节点已有的 `By Hack` 访问，结算了 1,274 CR 的 Log Deletion。
+
 `RM7-A2ES` 的 SAI 实测为 20 点防御，提供 1,000 CR 的 `Force hack`。通过三轮图案可取得 `By Hack` 访问。到节点 `Files` 再核对所需的剧情材料。
 
 `RM7-N2L2` 后续复查也显示 13 点防御和 1,000 CR 的入口。实测先通过三轮图案，再以 `By Hack` 进入，完成一笔 1,274 CR 的 Log Deletion 委托，扣除挑战费净增 274 CR。
