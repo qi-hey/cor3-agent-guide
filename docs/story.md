@@ -161,7 +161,7 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 
 1. 在信使收到 Christopher Tong 确认平板已交给 Natalia Gromova 的消息后，询问下一步。实测他会发来推荐信、平板的游戏内地址和 Natalia 的联系人编号。完成该段对话后，任务面板显示 50%。
 2. 在 Network Map 搜索对话给出的 `855.529.8.2` 并按 Enter，实测定位到 `RM7-A2ES`，类型为 `CEDRT private`，显示 20 点防御。
-3. 一次复查已连通 `RM7-W3NCP`，连接 `RM7-A2ES` 时显示「无可用路径」。信使添加联系人未成功，提示面板显示「下一步暂未开放」。后续按当前游戏提示核对路由和权限。
+3. 回复 Christopher Tong 对话末尾的确认选项后，实测提示面板显示「下一步尚不可用」。当时已连通 `RM7-W3NCP`，连接 `RM7-A2ES` 仍提示「无可用路径」。后续按当前游戏提示核对路由和权限。
 
 ## Black Ledger
 
@@ -195,6 +195,8 @@ Messenger 内的 CORIE 数据库支持 `PERSON 名 姓` 查询。实测 `PERSON 
 4. 查《私事》对话时，可以在 `D4RK RM7EG` 已连通后打开游戏 Browser 中的 4D4RK 书签。本次实测站点可加载，ChuckTheFerry 的最后一条对话仍为「成交」。
 
 `D4RK RM7MI` 市场的「RM7EG 修复」详情说明，捐赠用于缩短节点恢复上线所需的时间。`B43273N` 的游戏访问需要在该节点的 SAI 单独核对。
+
+后续一轮中转仍激活，三个 D4RK 中继已连通，`B43274N` 和 `B43273N` 仍提示「无可用路径」。准备配装前，先在当前游戏地图核对能否到达 `B43273N`。
 
 ## D-Badger loadout check
 

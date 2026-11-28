@@ -43,6 +43,7 @@
     {"id": "ice-wall-pattern", "status": "verified", "path": "docs/puzzles.md", "section": "ICE WALL pattern"},
     {"id": "terminal-configuration", "status": "verified", "path": "docs/puzzles.md", "section": "Terminal configuration"},
     {"id": "puzzle-cooldown", "status": "verified", "path": "docs/puzzles.md", "section": "Timer and cooldown"},
+    {"id": "node-challenge-retries", "status": "verified", "path": "docs/puzzles.md", "section": "Node challenge retries"},
     {"id": "disconnect", "status": "verified", "path": "docs/troubleshooting.md", "section": "Disconnect and retry"},
     {"id": "map-search", "status": "verified", "path": "docs/troubleshooting.md", "section": "Map search and loading"},
     {"id": "market-entry", "status": "verified", "path": "docs/troubleshooting.md", "section": "Market entry"},
